@@ -161,6 +161,8 @@ button{
     background-color: rgb(255, 241, 225);
     text-transform: uppercase;
     padding: 11px;
+    font-size: 0.6rem;
+    border: 1.4px solid;
 }
 
 
