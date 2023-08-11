@@ -361,6 +361,10 @@ hr{
 
 /*------ footer styling ------*/
 
+footer{
+    background-color: #222;
+}
+
 footer p a{
     color: #c78c06;
 }
