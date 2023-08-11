@@ -10,10 +10,11 @@ body{
     background-color: #222;
 }
   
+
+/*------ header-nav styling ------*/
+
 header{
     background-color:#222;
-    
-   
 }
 
 .wrapper{
@@ -30,7 +31,6 @@ nav{
 nav ul li{
     text-align: center;
     display: block;
-   
 }
 
 
@@ -40,8 +40,6 @@ nav ul li a{
     padding: 1rem 2rem;
     display: block;
     white-space: nowrap;
-    
-    
 }
 
 nav ul li a:visited{
@@ -51,7 +49,6 @@ nav ul li a:visited{
 nav ul li a:hover{
     background-color: #c78c06;
     color: #222;
-    
 }
 
 
@@ -72,12 +69,6 @@ nav ul li a:hover{
 
 
 /*------ main banner styling ------*/
-
-
-
-
-
-
 
 .main-content{
     
@@ -133,7 +124,8 @@ nav ul li a:hover{
     padding: 1rem;
 }
 
-#about h2{
+/*------ styling all h2 together as they are similar ------*/
+h2{
     font-size: 3rem;
     font-weight: 550;
     padding: 1rem;
@@ -152,12 +144,6 @@ nav ul li a:hover{
     padding: 2rem 0;
 }
 
-#services h2{
-    font-size: 3rem;
-    font-weight: 550;
-    padding: 1rem;
-
-}
 
 .services-grid{
     display: grid;
@@ -240,12 +226,6 @@ nav ul li a:hover{
     
 }
 
-#team h2{
-    font-size: 3rem;
-    font-weight: 550;
-    padding: 1rem;
-
-}
 
 .team-img{
     width: 100%;
@@ -289,12 +269,6 @@ hr{
     background-color: #ffffff;
 }
 
-#contact h2{
-    font-size: 3rem;
-    font-weight: 550;
-    padding: 1rem;
-
-}
 
 /*------ contact styling - form ------*/
 
@@ -385,14 +359,6 @@ hr{
     width:100%;
 }
 
-
-
-
-
-
-
-
-
 /*------ footer styling ------*/
 
 footer p a{
@@ -470,9 +436,6 @@ footer p{
         padding-bottom: 1.3rem;
     }
 
-    #about h2{
-        padding: 0;
-    }
 
     /* ------ Styling the services ------*/
     #services{
