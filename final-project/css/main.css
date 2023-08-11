@@ -1,0 +1,580 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    background-color: #222;
+}
+  
+header{
+    background-color:#222;
+    
+   
+}
+
+.wrapper{
+    margin:1rem;
+    background-color:#c78c06;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+}
+
+nav ul li{
+    text-align: center;
+    display: block;
+   
+}
+
+
+nav ul li a{
+    color: #c78c06;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+    white-space: nowrap;
+    
+    
+}
+
+nav ul li a:visited{
+    color: #c78c06;
+}
+
+nav ul li a:hover{
+    background-color: #c78c06;
+    color: #222;
+    
+}
+
+
+.search-bar input{
+    float: left;
+    width:90%;
+    font-size: 1.2rem;
+    padding: 7px;
+}
+
+.search-bar button{
+    background-color:#222;
+    color: #c78c06;
+    border: 1px solid #c78c06;
+    padding: 6px;
+    width:10%;
+}
+
+
+/*------ main banner styling ------*/
+
+
+
+
+
+
+
+.main-content{
+    
+    color: #ffffff;
+    background-image: url(../images/main-banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10rem 0;
+    
+    background-color: rgba(0,0,0,0.7);
+   
+}
+
+.color{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.connect-button{
+    background-color:#c78c06;
+    display: inline-block;
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;;
+}
+
+.main-content h1{
+    font-size:4rem;
+    font-weight: 550;
+    margin: 1.5rem;
+}
+
+.main-content p{
+    margin: 1.5rem;
+}
+
+.main-content a{
+    margin: 1.5rem;
+}
+
+
+/*------ about styling ------*/
+
+#about{
+    background-color: #ffe6ac;
+    padding-bottom: 1rem;
+}
+
+.about-us-img{
+    width: 100%;
+    padding: 1rem;
+}
+
+#about h2{
+    font-size: 3rem;
+    font-weight: 550;
+    padding: 1rem;
+
+}
+
+#about p{
+    padding: 1rem;
+}
+
+
+/*------ services styling ------*/
+
+#services{
+    background-color: #ffffff;
+    padding: 2rem 0;
+}
+
+#services h2{
+    font-size: 3rem;
+    font-weight: 550;
+    padding: 1rem;
+
+}
+
+.services-grid{
+    display: grid;
+    gap:2rem;
+    margin:0 2rem;
+    
+}
+
+.services-img{
+    width: 100%;
+    
+    display: block;
+}
+
+.bg-color{
+    background-color: #ffe6ac;
+    
+  
+}
+
+#services h3{
+    font-size: 1.7rem;
+    font-weight: 550;
+    padding: 1rem;
+    
+}
+
+.services-button{
+    background-color: #222;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2.5rem;
+    margin: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.bg-color > p{
+    padding:0 1rem;
+}
+
+/*------ vision styling ------*/
+
+
+.vision-content{
+    
+    color: #ffffff;
+    padding: 2rem 1rem;
+    background-color: rgb(19, 24, 75);
+    background-image: url(../images/vision.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.vision-button{
+    background-color: rgba(0,0,0,0.5);
+    padding: 2.5rem;
+    display: inline-block;
+    margin: 1rem 0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: 1px solid #c78c06;
+}
+
+.vision-content h3{
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 1rem 0;
+    
+}
+
+
+/*------ team styling ------*/
+
+#team{
+    background-color: #ffffff;
+    
+}
+
+#team h2{
+    font-size: 3rem;
+    font-weight: 550;
+    padding: 1rem;
+
+}
+
+.team-img{
+    width: 100%;
+    display:block;
+    
+}
+
+.team-grid{
+    display:grid;
+    gap:0;
+    padding: 1rem;
+}
+
+.about-team{
+    background-color: #ffe6ac;
+    padding: 1rem;
+    margin-bottom:1rem;
+}
+
+.about-team h3{
+    font-size: 2rem;
+    font-weight: 550;
+   
+}
+
+.bolded-txt{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+hr{
+    border: 1.7px solid #c78c06 ;
+    margin: 0 0 1.2rem 0;
+}
+
+
+/*------ contact styling ------*/
+
+#contact{
+    background-color: #ffffff;
+}
+
+#contact h2{
+    font-size: 3rem;
+    font-weight: 550;
+    padding: 1rem;
+
+}
+
+/*------ contact styling - form ------*/
+
+.form h3{
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 1rem 1rem 0 0;
+}
+
+.form{
+    padding: 1rem;
+}
+
+.form label{
+    display: block;
+    padding:1rem 0 0.5rem 0;
+
+    
+}
+
+.form input{
+    display:block;
+    width: 100%;
+    height: 2rem;
+    
+}
+
+.form textarea{
+    display:block;
+    width: 100%;
+    height: 10rem;
+    resize:none;
+}
+
+.form button{
+    background-color: #222;
+    color:#c78c06;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+
+}
+
+/*------ contact styling - hours ------*/
+
+.hours{
+    margin:1rem;
+}
+
+.hours h3{
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 1rem 1rem 0.5rem 0;
+}
+
+.hours table, th, td{
+    border: 1px solid #222;
+    
+}
+
+.hours table{
+    width: 100%;
+   
+}
+
+.hours th{
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffe6ac;
+}
+
+.hours td{
+    padding: 1rem;
+}
+
+/*------ contact styling - location ------*/
+
+.location{
+    padding:1rem;
+}
+
+.location h3{
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 1rem 1rem 0.5rem 0;
+}
+
+.location iframe{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+/*------ footer styling ------*/
+
+footer p a{
+    color: #c78c06;
+}
+
+footer p{
+    padding: 0.8rem;
+    color: #c78c06;
+}
+
+
+/*------ Media query -----*/
+
+@media screen and (min-width:760px) {
+
+    body{
+        max-width:1200px;
+    }
+
+
+    /* ------ Styling the nav bar ------*/
+    .wrapper{
+        display: flex;
+        align-items:center;
+        background-color: #222;
+        padding: 0 4rem;
+        width:100%;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 0 2rem;
+
+    }
+
+    nav ul li a{
+        padding: 0.5rem 3rem;
+
+    }
+
+    .search-bar{
+        display: flex;
+        width:80%;
+    }
+
+    .search-bar button{
+        width:20%;
+    }
+
+
+    /* ------ Styling the main banner ------ */
+
+    .color{
+        margin:0 6rem;
+        padding-top: 3rem;
+    }
+
+    #main-banner h1{
+        font-size: 5rem;
+    }
+
+
+    /* ------ Styling the about ------ */
+
+    .about-us-img{
+        float: left;
+        width: 60%;
+
+    }
+
+    #about{
+        padding:0 6rem;
+        padding-bottom: 1.3rem;
+    }
+
+    #about h2{
+        padding: 0;
+    }
+
+    /* ------ Styling the services ------*/
+    #services{
+        padding: 0 8rem;
+    }
+
+    .services-grid{
+       
+        grid-template-columns: repeat(6, 1fr);
+        margin:0;
+        padding-bottom:2rem;
+        
+    }
+
+    .digital-transformation{
+        grid-column: 1/4;
+        
+
+    }
+
+    .marketing{
+        grid-column: 4/7;
+        
+    }
+
+    .video-production{
+        grid-column: 1/3;
+    }
+
+    .web-development{
+        grid-column:3/5;
+
+    }
+
+    .print{
+        grid-column:5/7;
+    }
+
+    .services-button{
+        width:90%;
+        text-align: center;
+        padding:1.5rem;
+        
+    }
+
+
+    /* ------ Styling the team------*/
+
+    #team{
+        padding:0 6rem;
+    }
+
+    .team-grid{
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap:0;
+    }
+
+    .team-grid div:nth-child(4){
+        grid-column: 1/2;
+        grid-row:2/3;
+    }
+
+    .team-grid div:nth-child(3){
+        grid-column: 2/3;
+    }
+
+    .about-team{
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    
+    /* ------ Styling the contact------*/
+
+    #contact{
+        padding:0 6rem;
+    }
+    
+    .contact-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+        grid-template-areas:
+         "one two"
+         "three three";
+    }
+
+    .form{
+        grid-area:one;
+
+    }
+
+    .hours{
+        grid-area:three;
+    }
+
+    .location{
+        grid-area:two;
+        
+    }
+
+
+}
